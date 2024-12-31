@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <>
-            <html lang="en" suppressHydrationWarning>
+            <html className="bg-syrupbg" lang="en" suppressHydrationWarning>
                 <head />
                 <body className={roboto.className}>
                     <ThemeProvider

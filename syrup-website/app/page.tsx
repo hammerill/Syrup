@@ -27,7 +27,7 @@ export default function Home() {
         <main className={roboto.className}>
             <NavigationHeader title="Syrup" links={navLinks} />
             {/* Hero */}
-            <div className="relative bg-[#A02801] flex flex-row items-center text-center px-4 sm:px-16 pt-32 overflow-hidden h-screen">
+            <div className="relative bg-syrupbg flex flex-row items-center text-center px-4 sm:px-16 pt-32 overflow-hidden h-screen">
                 {/* Right */}
                 <div className="flex-1 p-8 justify-center items-center h-full hidden lg:flex">
                     <Image
